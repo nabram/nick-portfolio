@@ -22,6 +22,9 @@ export const CaseStudies = () => {
           <Link to="/case-studies/reaqtions">
             <ProjectTileReAQtions />
           </Link>
+          <Link to="/case-studies/indie-game-marketplace">
+            <ProjectTileIndieMarketplace />
+        </Link>
         </div>
       </section>
     </div>
