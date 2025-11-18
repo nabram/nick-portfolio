@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ProjectTileAIStudios } from "../components/cards/ProjectTileAIStudios";
+import { ProjectTileIndieMarketplace } from "../components/cards/ProjectTileIndieMarketplace";
 import { ProjectTileReAQtions } from "../components/cards/ProjectTileReAQtions";
 import { usePageMeta } from "../hooks/usePageMeta";
 

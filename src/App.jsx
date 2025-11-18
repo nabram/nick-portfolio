@@ -4,6 +4,8 @@ import { Layout } from "./components/layout/Layout";
 import { Home } from "./pages/Home";
 import { About } from "./pages/About";
 import { CaseStudies } from "./pages/CaseStudies";
+import IndieGameMarketplaceCaseStudy from "./case-studies/IndieGameMarketplaceCaseStudy";
+
 
 // 👇 change these two lines to default imports
 import AIStudiosCaseStudy from "./case-studies/AIStudiosCaseStudy";
@@ -20,6 +22,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/case-studies" element={<CaseStudies />} />
           <Route path="/case-studies/ai-studios" element={<AIStudiosCaseStudy />} />
+          <Route path="/case-studies/indie-game-marketplace" element={<IndieGameMarketplaceCaseStudy />} />
           <Route path="/case-studies/reaqtions" element={<ReAQtionsCaseStudy />} />
         </Routes>
       </Layout>

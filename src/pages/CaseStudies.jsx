@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { ProjectTileAIStudios } from "../components/cards/ProjectTileAIStudios";
 import { ProjectTileReAQtions } from "../components/cards/ProjectTileReAQtions";
+import { ProjectTileIndieMarketplace } from "../components/cards/ProjectTileIndieMarketplace";
 
 export const CaseStudies = () => {
   return (
