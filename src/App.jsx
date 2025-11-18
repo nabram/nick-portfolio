@@ -4,9 +4,12 @@ import { Layout } from "./components/layout/Layout";
 import { Home } from "./pages/Home";
 import { About } from "./pages/About";
 import { CaseStudies } from "./pages/CaseStudies";
-import { AIStudiosCaseStudy } from "./case-studies/AIStudiosCaseStudy";
-import { ReAQtionsCaseStudy } from "./case-studies/ReAQtionsCaseStudy";
-import "./styles/case-study.css"; // case study styles
+
+// 👇 change these two lines to default imports
+import AIStudiosCaseStudy from "./case-studies/AIStudiosCaseStudy";
+import ReAQtionsCaseStudy from "./case-studies/ReAQtionsCaseStudy";
+
+import "./styles/case-study.css";
 
 function App() {
   return (
