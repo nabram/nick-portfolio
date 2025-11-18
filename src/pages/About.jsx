@@ -1,7 +1,15 @@
 import React from "react";
+import { usePageMeta } from "../hooks/usePageMeta";
+
 
 export const About = () => {
-  return (
+    usePageMeta({
+    title: "About · Nicholas Abram",
+    description:
+      "Learn more about Nicholas Abram, a hybrid product, UX, and AI systems operator with experience across DeepBrain AI, ReAQtions, and digital product work.",
+    });
+    
+    return (
     <div className="page">
       <section className="page-header">
         <h1>About</h1>

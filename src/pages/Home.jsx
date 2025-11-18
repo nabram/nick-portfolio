@@ -2,8 +2,17 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { ProjectTileAIStudios } from "../components/cards/ProjectTileAIStudios";
 import { ProjectTileReAQtions } from "../components/cards/ProjectTileReAQtions";
+import { usePageMeta } from "../hooks/usePageMeta";
+
 
 export const Home = () => {
+
+  usePageMeta({
+    title: "Nicholas Abram · Product, UX, and AI Systems",
+    description:
+      "Portfolio of Nicholas Abram, a hybrid product, UX, and AI systems operator working across AI video, climate hardware, and GTM.",
+  });
+
   return (
     <div className="home">
       <section className="home-hero">

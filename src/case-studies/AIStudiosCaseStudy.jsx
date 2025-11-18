@@ -1,6 +1,14 @@
 import React from "react";
+import { usePageMeta } from "../hooks/usePageMeta";
 
 export default function AIStudiosCaseStudy() {
+  
+  usePageMeta({
+    title: "AI Studios UX Redesign · Case Study · Nicholas Abram",
+    description:
+      "How I led a UX and workflow redesign for AI Studios at DeepBrain AI, informing the 3.0 UI and contributing to better churn and export behavior.",
+  });
+  
   return (
     <main className="cs">
       <header className="cs-hero">

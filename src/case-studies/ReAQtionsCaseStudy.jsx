@@ -1,7 +1,14 @@
 import React from "react";
+import { usePageMeta } from "../hooks/usePageMeta";
 
 export default function ReAQtionsCaseStudy() {
-  return (
+    usePageMeta({
+    title: "ReAQtions / CanAIRy · Indoor Air Quality Case Study · Nicholas Abram",
+    description:
+      "How I co founded ReAQtions (CanAIRy), an indoor air quality project with Acterra, helping families change ventilation habits and support electrification.",
+    });
+  
+    return (
     <main className="cs">
       <header className="cs-hero">
         <div className="cs-hero-text">
