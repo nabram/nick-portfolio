@@ -9,6 +9,7 @@ import { CaseStudies } from "./pages/CaseStudies";
 import IndieGameMarketplaceCaseStudy from "./case-studies/IndieGameMarketplaceCaseStudy";
 import AvatarPipelineCaseStudy from "./case-studies/AvatarPipelineCaseStudy";
 import SCORMEnterpriseCaseStudy from "./case-studies/SCORMEnterpriseCaseStudy";
+import AIProductivitySystemCaseStudy from "./case-studies/AIProductivitySystemCaseStudy";
 
 
 // 👇 change these two lines to default imports
@@ -30,6 +31,7 @@ function App() {
           <Route path="/case-studies/reaqtions" element={<ReAQtionsCaseStudy />} />
           <Route path="/case-studies/avatar-pipeline" element={<AvatarPipelineCaseStudy />} />
           <Route path="/case-studies/scorm-enterprise" element={<SCORMEnterpriseCaseStudy />} />
+          <Route path="/case-studies/ai-portfolio-system" element={<AIProductivitySystemCaseStudy />} />
         </Routes>
       </Layout>
     </BrowserRouter>

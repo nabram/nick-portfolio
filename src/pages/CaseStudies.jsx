@@ -5,6 +5,7 @@ import { ProjectTileReAQtions } from "../components/cards/ProjectTileReAQtions";
 import { ProjectTileIndieMarketplace } from "../components/cards/ProjectTileIndieMarketplace";
 import { ProjectTileAvatars } from "../components/cards/ProjectTileAvatars";
 import { ProjectTileSCORM } from "../components/cards/ProjectTileSCORM";
+import { ProjectTileAIProductivitySystem } from "../components/cards/ProjectTileAIProductivitySystem";
 
 export const CaseStudies = () => {
   return (
@@ -18,6 +19,9 @@ export const CaseStudies = () => {
       </section>
       <section className="page-body">
         <div className="home-grid">
+          <Link to="/case-studies/ai-portfolio-system">
+            <ProjectTileAIProductivitySystem />
+          </Link>
           <Link to="/case-studies/ai-studios">
             <ProjectTileAIStudios />
           </Link>

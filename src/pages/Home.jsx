@@ -6,6 +6,7 @@ import { ProjectTileIndieMarketplace } from "../components/cards/ProjectTileIndi
 import { ProjectTileReAQtions } from "../components/cards/ProjectTileReAQtions";
 import { ProjectTileAvatars } from "../components/cards/ProjectTileAvatars";
 import { ProjectTileSCORM } from "../components/cards/ProjectTileSCORM";
+import { ProjectTileAIProductivitySystem } from "../components/cards/ProjectTileAIProductivitySystem";
 
 
 import { usePageMeta } from "../hooks/usePageMeta";
@@ -40,6 +41,9 @@ export const Home = () => {
           </Link>
         </div>
         <div className="home-grid">
+          <Link to="/case-studies/ai-portfolio-system">
+            <ProjectTileAIProductivitySystem />
+          </Link>
           <Link to="/case-studies/ai-studios">
             <ProjectTileAIStudios />
           </Link>
