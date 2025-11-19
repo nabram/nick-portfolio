@@ -4,7 +4,7 @@ export const ProjectTileReAQtions = () => {
   return (
     <article className="proj-card">
       <div className="proj-tag-row">
-        <span className="proj-tag">Start Up Founder</span>
+        <span className="proj-tag">ReAQtions - Start Up Founder</span>
         <span className="proj-tag">Climate</span>
         <span className="proj-tag">Hardware + UX</span>
         <span className="proj-tag">Behavior Change</span>

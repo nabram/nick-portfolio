@@ -4,6 +4,7 @@ export const ProjectTileAIStudios = () => {
   return (
     <article className="proj-card">
       <div className="proj-tag-row">
+        <span className="proj-tag">DeepBrain AI</span>
         <span className="proj-tag">AI Product</span>
         <span className="proj-tag">UX</span>
         <span className="proj-tag">Retention</span>

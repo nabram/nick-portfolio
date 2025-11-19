@@ -4,6 +4,7 @@ export const ProjectTileSCORM = () => {
   return (
     <article className="proj-card">
       <div className="proj-tag-row">
+        <span className="proj-tag">DeepBrain AI</span>
         <span className="proj-tag">AI Product</span>
         <span className="proj-tag">Enterprise</span>
         <span className="proj-tag">L&amp;D</span>
