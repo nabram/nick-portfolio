@@ -1,8 +1,12 @@
 import React from "react";
+
 import { Link } from "react-router-dom";
 import { ProjectTileAIStudios } from "../components/cards/ProjectTileAIStudios";
 import { ProjectTileIndieMarketplace } from "../components/cards/ProjectTileIndieMarketplace";
 import { ProjectTileReAQtions } from "../components/cards/ProjectTileReAQtions";
+import { ProjectTileAvatars } from "../components/cards/ProjectTileAvatars";
+
+
 import { usePageMeta } from "../hooks/usePageMeta";
 
 
@@ -37,6 +41,9 @@ export const Home = () => {
         <div className="home-grid">
           <Link to="/case-studies/ai-studios">
             <ProjectTileAIStudios />
+          </Link>
+          <Link to="/case-studies/avatar-pipeline">
+            <ProjectTileAvatars />
           </Link>
           <Link to="/case-studies/reaqtions">
             <ProjectTileReAQtions />

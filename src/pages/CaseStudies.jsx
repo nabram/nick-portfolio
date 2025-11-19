@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { ProjectTileAIStudios } from "../components/cards/ProjectTileAIStudios";
 import { ProjectTileReAQtions } from "../components/cards/ProjectTileReAQtions";
 import { ProjectTileIndieMarketplace } from "../components/cards/ProjectTileIndieMarketplace";
+import { ProjectTileAvatars } from "../components/cards/ProjectTileAvatars";
 
 export const CaseStudies = () => {
   return (
@@ -18,6 +19,9 @@ export const CaseStudies = () => {
         <div className="home-grid">
           <Link to="/case-studies/ai-studios">
             <ProjectTileAIStudios />
+          </Link>
+          <Link to="/case-studies/avatar-pipeline">
+            <ProjectTileAvatars />
           </Link>
           <Link to="/case-studies/reaqtions">
             <ProjectTileReAQtions />
