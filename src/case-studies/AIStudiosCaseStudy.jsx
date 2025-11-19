@@ -12,7 +12,7 @@ export default function AIStudiosCaseStudy() {
   return (
     <main className="cs">
       <header className="cs-hero">
-        <div className="cs-hero-text" style={{ minWidth: 0 }}>
+        <div className="cs-hero-text">
           <p className="cs-eyebrow">DeepBrain AI · AI Studios</p>
           <h1 className="cs-title">
             AI Studios UX Redesign – from fragmented flows to a coherent AI video editor

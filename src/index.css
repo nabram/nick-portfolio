@@ -190,6 +190,94 @@ main {
 .cs-list { margin:0 0 var(--space-3); padding-left:1.1rem; }
 .cs-list li { margin-bottom:0.45rem; color:var(--text-muted); }
 
+/* === Case study 3-column grid layout (desktop) === */
+
+/* Top-level case study grid */
+.cs {
+  display: grid;
+  grid-template-columns: 300px 460px 1fr; /* left meta, media, content */
+  grid-template-rows: auto 1fr;
+  gap: 32px;
+  align-items: start;
+  padding-bottom: 4rem;
+}
+
+/* Left column: title + metadata */
+.cs-left {
+  grid-column: 1 / 2;
+  grid-row: 1 / span 2; /* span both header and body vertically */
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* Trim the hero-text styles into the left column */
+.cs-left .cs-eyebrow { margin-top: 6px; }
+.cs-left .cs-title { font-size: 1.85rem; line-height:1.12; }
+.cs-left .cs-subtitle { display:none; } /* subtitle is not needed here, optional */
+
+/* Center column: hero media */
+.cs-media {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  background: linear-gradient(180deg, rgba(184,156,122,0.06), rgba(250,247,242,0.02));
+  border-radius: 14px;
+  border: 1px dashed rgba(0,0,0,0.04);
+  min-height: 320px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding: 18px;
+}
+
+/* Right column: case study content */
+.cs-body {
+  grid-column: 3 / 4;
+  grid-row: 1 / span 2;
+  max-width: 760px;
+}
+
+/* Make sure the inner cs-hero-text content (if present) fits */
+.cs-hero-text { min-width: 0; }
+
+/* Image helpers inside media block */
+.cs-media img {
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  border-radius: 10px;
+}
+
+/* Responsive fallback: stack vertically on narrow screens */
+@media (max-width: 900px) {
+  .cs {
+    display: block;
+  }
+
+  .cs-left {
+    order: 1;
+    grid-column: auto;
+    grid-row: auto;
+    margin-bottom: 1rem;
+  }
+
+  .cs-media {
+    order: 2;
+    width: 100%;
+    height: 220px;
+    margin-bottom: 1rem;
+  }
+
+  .cs-body {
+    order: 3;
+    width: 100%;
+  }
+
+  /* show subtitle on mobile under title */
+  .cs-left .cs-subtitle { display:block; color: var(--text-muted); }
+}
+
 /* =========
    ABOUT page
    ========= */
