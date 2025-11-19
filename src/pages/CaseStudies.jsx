@@ -4,6 +4,7 @@ import { ProjectTileAIStudios } from "../components/cards/ProjectTileAIStudios";
 import { ProjectTileReAQtions } from "../components/cards/ProjectTileReAQtions";
 import { ProjectTileIndieMarketplace } from "../components/cards/ProjectTileIndieMarketplace";
 import { ProjectTileAvatars } from "../components/cards/ProjectTileAvatars";
+import { ProjectTileSCORM } from "../components/cards/ProjectTileSCORM";
 
 export const CaseStudies = () => {
   return (
@@ -22,6 +23,9 @@ export const CaseStudies = () => {
           </Link>
           <Link to="/case-studies/avatar-pipeline">
             <ProjectTileAvatars />
+          </Link>
+          <Link to="/case-studies/scorm-enterprise">
+            <ProjectTileSCORM />
           </Link>
           <Link to="/case-studies/reaqtions">
             <ProjectTileReAQtions />

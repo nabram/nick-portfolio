@@ -1,11 +1,14 @@
 import React from "react";
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Layout } from "./components/layout/Layout";
 import { Home } from "./pages/Home";
 import { About } from "./pages/About";
 import { CaseStudies } from "./pages/CaseStudies";
+
 import IndieGameMarketplaceCaseStudy from "./case-studies/IndieGameMarketplaceCaseStudy";
 import AvatarPipelineCaseStudy from "./case-studies/AvatarPipelineCaseStudy";
+import SCORMEnterpriseCaseStudy from "./case-studies/SCORMEnterpriseCaseStudy";
 
 
 // 👇 change these two lines to default imports
@@ -26,6 +29,7 @@ function App() {
           <Route path="/case-studies/indie-game-marketplace" element={<IndieGameMarketplaceCaseStudy />} />
           <Route path="/case-studies/reaqtions" element={<ReAQtionsCaseStudy />} />
           <Route path="/case-studies/avatar-pipeline" element={<AvatarPipelineCaseStudy />} />
+          <Route path="/case-studies/scorm-enterprise" element={<SCORMEnterpriseCaseStudy />} />
         </Routes>
       </Layout>
     </BrowserRouter>
