@@ -10,7 +10,7 @@ import IndieGameMarketplaceCaseStudy from "./case-studies/IndieGameMarketplaceCa
 import AvatarPipelineCaseStudy from "./case-studies/AvatarPipelineCaseStudy";
 import SCORMEnterpriseCaseStudy from "./case-studies/SCORMEnterpriseCaseStudy";
 import AIProductivitySystemCaseStudy from "./case-studies/AIProductivitySystemCaseStudy";
-
+import NicheMarketingCaseStudy from "./case-studies/NicheMarketingCaseStudy";
 
 // 👇 change these two lines to default imports
 import AIStudiosCaseStudy from "./case-studies/AIStudiosCaseStudy";
@@ -32,6 +32,7 @@ function App() {
           <Route path="/case-studies/avatar-pipeline" element={<AvatarPipelineCaseStudy />} />
           <Route path="/case-studies/scorm-enterprise" element={<SCORMEnterpriseCaseStudy />} />
           <Route path="/case-studies/ai-portfolio-system" element={<AIProductivitySystemCaseStudy />} />
+          <Route path="/case-studies/niche-marketing" element={<NicheMarketingCaseStudy />} />
         </Routes>
       </Layout>
     </BrowserRouter>

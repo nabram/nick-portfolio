@@ -12,7 +12,7 @@ export default function ReAQtionsCaseStudy() {
     <main className="cs">
       <header className="cs-hero">
         <div className="cs-hero-text">
-          <p className="cs-eyebrow">CanAIRy → ReAQtions · Acterra</p>
+          <p className="cs-eyebrow">CanAIRy → ReAQtions · Acterra · Indoor Air Quality</p>
           <h1 className="cs-title">
             ReAQtions / CanAIRy – making indoor air quality visible at home
           </h1>

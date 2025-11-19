@@ -5,8 +5,9 @@ export const ProjectTileIndieMarketplace = () => {
     <article className="proj-card">
         <div className="proj-tag-row">
             <span className="proj-tag">Independent project</span>
+            <span className="proj-tag">MCP Servers</span>
             <span className="proj-tag">AI Prototyping</span>
-            <span className="proj-tag">System design</span>
+            <span className="proj-tag">AI System Design</span>
             <span className="proj-tag">Marketplace UX</span>
         </div>
         <h3 className="proj-title">Indie Game Marketplace (IndieGems)</h3>

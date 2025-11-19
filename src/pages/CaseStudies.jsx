@@ -6,6 +6,7 @@ import { ProjectTileIndieMarketplace } from "../components/cards/ProjectTileIndi
 import { ProjectTileAvatars } from "../components/cards/ProjectTileAvatars";
 import { ProjectTileSCORM } from "../components/cards/ProjectTileSCORM";
 import { ProjectTileAIProductivitySystem } from "../components/cards/ProjectTileAIProductivitySystem";
+import { ProjectTileNicheMarketing } from "../components/cards/ProjectTileNicheMarketing";
 
 export const CaseStudies = () => {
   return (
@@ -36,7 +37,10 @@ export const CaseStudies = () => {
           </Link>
           <Link to="/case-studies/indie-game-marketplace">
             <ProjectTileIndieMarketplace />
-        </Link>
+          </Link>
+          <Link to="/case-studies/niche-marketing">
+            <ProjectTileNicheMarketing />
+          </Link>
         </div>
       </section>
     </div>
