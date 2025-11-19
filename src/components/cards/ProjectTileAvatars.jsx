@@ -5,8 +5,8 @@ export const ProjectTileAvatars = () => {
     <article className="proj-card">
       <div className="proj-tag-row">
         <span className="proj-tag">AI Product</span>
-        <span className="proj-tag">R&amp;D</span>
-        <span className="proj-tag">GTM</span>
+        <span className="proj-tag">Avatar Systems</span>
+        <span className="proj-tag">Growth</span>
       </div>
       <h3 className="proj-title">150+ Avatar Pipeline (AI Studios v3.0)</h3>
       <p className="proj-summary">
