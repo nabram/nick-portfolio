@@ -14,7 +14,7 @@ export const ProjectTileReAQtions = () => {
         Co founded an indoor air quality project with Acterra that helped families see and
         improve their home air quality while supporting electrification goals.
       </p>
-      <button className="proj-cta">View case study</button>
+      <button className="proj-cta btn-primary">View case study</button>
     </article>
   );
 };

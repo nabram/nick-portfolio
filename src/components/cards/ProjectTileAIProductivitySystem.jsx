@@ -15,7 +15,7 @@ export const ProjectTileAIProductivitySystem = () => {
         React, and human plus AI collaboration to generate resumes and case studies in
         minutes.
       </p>
-      <button className="proj-cta">View case study</button>
+      <button className="proj-cta btn-primary">View case study</button>
     </article>
   );
 };

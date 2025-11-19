@@ -11,7 +11,7 @@ export default function AvatarPipelineCaseStudy() {
   return (
     <main className="cs">
       <header className="cs-hero">
-        <div className="cs-hero-text">
+        <div className="cs-hero-text" style={{ minWidth: 0 }}>
           <p className="cs-eyebrow">DeepBrain AI · AI Studios v3.0</p>
           <h1 className="cs-title">
             150+ Avatar Pipeline – scaling AI characters for AI Studios v3.0
@@ -50,7 +50,7 @@ export default function AvatarPipelineCaseStudy() {
           </dl>
         </div>
 
-        <div className="cs-hero-media">
+        <div className="cs-hero-media" aria-hidden="true">
           {/* Placeholder for avatar grid / AI Studios visual */}
         </div>
       </header>

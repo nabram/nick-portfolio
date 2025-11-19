@@ -14,7 +14,7 @@ export const ProjectTileNicheMarketing = () => {
         Designed and optimized marketing sites, storefronts, and a 300+ page small
         business curriculum, helping clients improve clarity and revenue.
       </p>
-      <button className="proj-cta">View case study</button>
+      <button className="proj-cta btn-primary">View case study</button>
     </article>
   );
 };

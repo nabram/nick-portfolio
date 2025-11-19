@@ -15,7 +15,7 @@ export const ProjectTileAvatars = () => {
         characters and instant avatars, coordinating research, talent, shoots, and
         integrations and contributing to a major lift in subscribers.
       </p>
-      <button className="proj-cta">View case study</button>
+      <button className="proj-cta btn-primary">View case study</button>
     </article>
   );
 };

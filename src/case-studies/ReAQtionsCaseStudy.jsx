@@ -11,7 +11,7 @@ export default function ReAQtionsCaseStudy() {
     return (
     <main className="cs">
       <header className="cs-hero">
-        <div className="cs-hero-text">
+        <div className="cs-hero-text" style={{ minWidth: 0 }}>
           <p className="cs-eyebrow">CanAIRy → ReAQtions · Acterra · Indoor Air Quality</p>
           <h1 className="cs-title">
             ReAQtions / CanAIRy – making indoor air quality visible at home
@@ -41,7 +41,7 @@ export default function ReAQtionsCaseStudy() {
           </dl>
         </div>
 
-        <div className="cs-hero-media">
+        <div className="cs-hero-media" aria-hidden="true">
           {/* Placeholder for ReAQtions / CanAIRy device visual */}
         </div>
       </header>

@@ -15,7 +15,7 @@ export const ProjectTileIndieMarketplace = () => {
           AI assisted prototype of a resilient indie game marketplace using JSON driven
           architecture, Reforge Build, and Lovable.
         </p>
-        <button className="proj-cta">View case study</button>
+        <button className="proj-cta btn-primary">View case study</button>
     </article>
   );
 };

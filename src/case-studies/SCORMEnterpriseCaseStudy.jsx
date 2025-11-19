@@ -11,7 +11,7 @@ export default function SCORMEnterpriseCaseStudy() {
   return (
     <main className="cs">
       <header className="cs-hero">
-        <div className="cs-hero-text">
+        <div className="cs-hero-text" style={{ minWidth: 0 }}>
           <p className="cs-eyebrow">DeepBrain AI · AI Studios · Enterprise L&amp;D</p>
           <h1 className="cs-title">
             SCORM & Enterprise Enablement – making AI Studios work for L&amp;D teams
@@ -45,7 +45,7 @@ export default function SCORMEnterpriseCaseStudy() {
           </dl>
         </div>
 
-        <div className="cs-hero-media">
+        <div className="cs-hero-media" aria-hidden="true">
           {/* Placeholder for SCORM / L&D visual */}
         </div>
       </header>

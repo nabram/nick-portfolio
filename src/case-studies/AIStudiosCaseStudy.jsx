@@ -12,7 +12,7 @@ export default function AIStudiosCaseStudy() {
   return (
     <main className="cs">
       <header className="cs-hero">
-        <div className="cs-hero-text">
+        <div className="cs-hero-text" style={{ minWidth: 0 }}>
           <p className="cs-eyebrow">DeepBrain AI · AI Studios</p>
           <h1 className="cs-title">
             AI Studios UX Redesign – from fragmented flows to a coherent AI video editor
@@ -43,7 +43,7 @@ export default function AIStudiosCaseStudy() {
           </dl>
         </div>
 
-        <div className="cs-hero-media">
+        <div className="cs-hero-media" aria-hidden="true">
           {/* Placeholder for AI Studios hero visual */}
         </div>
       </header>

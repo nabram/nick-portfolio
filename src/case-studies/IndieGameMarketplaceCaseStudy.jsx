@@ -12,7 +12,7 @@ export default function IndieGameMarketplaceCaseStudy() {
   return (
     <main className="cs">
       <header className="cs-hero">
-        <div className="cs-hero-text">
+        <div className="cs-hero-text" style={{ minWidth: 0 }}>
           <p className="cs-eyebrow">
             Independent project · AI Prototyping Engine
           </p>
@@ -56,7 +56,7 @@ export default function IndieGameMarketplaceCaseStudy() {
           </dl>
         </div>
 
-        <div className="cs-hero-media">
+        <div className="cs-hero-media" aria-hidden="true">
           {/* Placeholder for Indie Gems mockup */}
         </div>
       </header>

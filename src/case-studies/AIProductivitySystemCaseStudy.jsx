@@ -11,7 +11,7 @@ export default function AIProductivitySystemCaseStudy() {
   return (
     <main className="cs">
       <header className="cs-hero">
-        <div className="cs-hero-text">
+        <div className="cs-hero-text" style={{ minWidth: 0 }}>
           <p className="cs-eyebrow">Independent project · AI systems · Portfolio engine</p>
           <h1 className="cs-title">Building an AI driven portfolio system</h1>
           <p className="cs-subtitle">
@@ -46,7 +46,7 @@ export default function AIProductivitySystemCaseStudy() {
           </dl>
         </div>
 
-        <div className="cs-hero-media">
+        <div className="cs-hero-media" aria-hidden="true">
           {/* Placeholder for a future visual (site overview, system diagram, etc.) */}
         </div>
       </header>

@@ -11,7 +11,7 @@ export default function NicheMarketingCaseStudy() {
   return (
     <main className="cs">
       <header className="cs-hero">
-        <div className="cs-hero-text">
+        <div className="cs-hero-text" style={{ minWidth: 0 }}>
           <p className="cs-eyebrow">Niche Marketing · Client work</p>
           <h1 className="cs-title">
             Niche Marketing – designing high-conversion sites and courses for small
@@ -52,7 +52,7 @@ export default function NicheMarketingCaseStudy() {
           </dl>
         </div>
 
-        <div className="cs-hero-media">
+        <div className="cs-hero-media" aria-hidden="true">
           {/* Placeholder for composite of site screenshots / course layouts */}
         </div>
       </header>

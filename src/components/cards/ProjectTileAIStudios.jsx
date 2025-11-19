@@ -15,7 +15,7 @@ export const ProjectTileAIStudios = () => {
         and informing the 3.0 roadmap with measurable gains in retention and export
         behavior.
       </p>
-      <button className="proj-cta">View case study</button>
+      <button className="proj-cta btn-primary">View case study</button>
     </article>
   );
 };

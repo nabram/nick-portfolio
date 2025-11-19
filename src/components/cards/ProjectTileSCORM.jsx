@@ -15,7 +15,7 @@ export const ProjectTileSCORM = () => {
         L&amp;D teams author, export, and track training so the product fits into real
         LMS environments.
       </p>
-      <button className="proj-cta">View case study</button>
+      <button className="proj-cta btn-primary">View case study</button>
     </article>
   );
 };
